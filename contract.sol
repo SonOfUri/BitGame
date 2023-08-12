@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at Etherscan.io on 2023-01-27
+ *Submitted for verification at BscScan.com on 2023-01-12
 */
 
 library SafeMath {
@@ -568,7 +568,7 @@ abstract contract Ownable is Context {
     }
 }
 
-contract CoinFlip is Ownable {
+contract BeanFlip is Ownable {
     using Address for address;
     using SafeMath for uint256;
 
@@ -635,13 +635,13 @@ contract CoinFlip is Ownable {
         uint32 end;
     }
 
-    address public _houseFeeReceiver = address(0x32634D7a09AFb82550dB39644172aB138aAE0e8A);
-    uint8 public _houseFeePercentage = 30; 
+    address public _houseFeeReceiver = address(0x6E5690Bf9DDd372c1Aed180244cAB8a7f71e908F);
+    uint8 public _houseFeePercentage = 30; // In 0.1% increments
 
-    address public _devFeeReceiver = address(0x32634D7a09AFb82550dB39644172aB138aAE0e8A);
-    uint8 public _devFeePercentage = 3; //0.3%
+    address public _devFeeReceiver = address(0x6E5690Bf9DDd372c1Aed180244cAB8a7f71e908F);
+    uint8 public _devFeePercentage = 3; // In 0.1% increments
 
-    uint8 public _referrerFeePercentage = 5; 
+    uint8 public _referrerFeePercentage = 4; // In 0.1% increments
 
     mapping (address => bool) public _team;
     mapping (address => bool) public _isBlacklisted;
