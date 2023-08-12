@@ -1,2 +1,6 @@
 # coinflipgamebsc
 Coin Flip game full source
+
+
+HIS: 0xe6E2F000E1c142A4A6F359222071b994F8642192
+MINE: 0x2af1c1a64e1367C143a14e2a6A311A80c9C61666
